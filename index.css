@@ -3,23 +3,28 @@ body {
     margin-top: 70px;
 }
 
-footer {
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-}
-
 h1 {
     color: #09d919;
 }
 
-div.position-absolute {
-    pointer-events: none;
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .input-group {
+        width: 100% !important;
+    }
+    #button-password {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    footer {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
-
-
-
