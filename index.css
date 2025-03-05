@@ -3,8 +3,22 @@ body {
     margin-top: 70px;
 }
 
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
 h1 {
     color: #09d919;
+}
+
+div.position-absolute {
+    pointer-events: none;
 }
 
 @media (max-width: 768px) {
